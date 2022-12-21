@@ -27,4 +27,5 @@ yarn-error.log*
 *.fig
 *.xd
 .prettierignore
-*.md
+style-guide.md
+README-orig.md
