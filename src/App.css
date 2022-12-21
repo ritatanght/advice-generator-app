@@ -1,12 +1,6 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap"); */
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
 
 :root {
-  --p1: hsl(193, 38%, 86%);
-  --p2: hsl(150, 100%, 66%);
-  --p3: hsl(217, 19%, 38%);
-  --p4: hsl(217, 19%, 24%);
-  --p5: hsl(218, 23%, 16%);
   --light-cyan: 193 38% 86%;
   --green: 150, 100%, 66%;
   --gray-blue: 217 19% 38%;
@@ -41,13 +35,14 @@ body {
 }
 
 .container h2 {
-  margin-bottom: 1.5em;
+  text-transform: uppercase;
   letter-spacing: 0.2em;
 }
 
 .advice-id {
   color: hsl(var(--green));
   font-size: 0.8rem;
+  margin-bottom: 1.5em;
 }
 
 .quote {
